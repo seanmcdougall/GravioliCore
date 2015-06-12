@@ -38,7 +38,7 @@ namespace GravioliCore
         [KSPField(isPersistant = true, guiActive = true, guiActiveEditor = true, guiName = "Polarity"), UI_Toggle(disabledText = "Positive", enabledText = "Negative")]
         public bool decreaseMass = true;
 
-        [KSPField(isPersistant = true, guiActive = true, guiActiveEditor = false, guiName = "Gravioli Core"), UI_Toggle(disabledText = "Disabled", enabledText = "Enabled")]
+        [KSPField(isPersistant = true, guiActive = true, guiActiveEditor = false, guiName = "Core"), UI_Toggle(disabledText = "Disabled", enabledText = "Enabled")]
         public bool massEffectEnabled = false;
 
         [KSPAction("Toggle Core")]
